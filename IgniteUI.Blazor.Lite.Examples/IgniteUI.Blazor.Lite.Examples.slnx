@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="IgniteUI.Blazor.Lite.Examples/IgniteUI.Blazor.Lite.Examples.Client/IgniteUI.Blazor.Lite.Examples.Client.csproj" />
+  <Project Path="IgniteUI.Blazor.Lite.Examples/IgniteUI.Blazor.Lite.Examples/IgniteUI.Blazor.Lite.Examples.csproj" />
+</Solution>
