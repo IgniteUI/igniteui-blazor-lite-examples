@@ -60,3 +60,6 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# System generated files
+*.DS_Store
