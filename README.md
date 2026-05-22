@@ -11,20 +11,22 @@ This project is structured as one component demo per page, intended for use as a
 ## Getting Started
 
 ```bash
-cd IgniteUI.Blazor.Lite.Examples/IgniteUI.Blazor.Lite.Examples/IgniteUI.Blazor.Lite.Examples
+cd IgniteUI.Blazor.Lite.Examples/IgniteUI.Blazor.Lite.Examples/IgniteUI.Blazor.Lite.Examples.Client
 dotnet run
 ```
+
+## Deployment
+
+The app is deployed to GitHub Pages automatically on push to `master` via the workflow in `.github/workflows/deploy.yml`.
 
 ## Project Structure
 
 ```
 IgniteUI.Blazor.Lite.Examples/
-├── IgniteUI.Blazor.Lite.Examples/        # Server project (hosts the app)
-│   └── Components/
-│       ├── Layout/                        # NavMenu, MainLayout
-│       └── Pages/                         # Home, Error, NotFound
-└── IgniteUI.Blazor.Lite.Examples.Client/  # WebAssembly client project
-    └── Pages/                             # All component demo pages
+└── IgniteUI.Blazor.Lite.Examples.Client/  # Standalone Blazor WebAssembly app
+    ├── Layout/                            # NavMenu, MainLayout
+    ├── Pages/                             # All component demo pages
+    └── wwwroot/                           # Static assets & index.html
 ```
 
 ## Component Demos
