@@ -1,6 +1,6 @@
-igc-nav-drawer {
+/* igc-nav-drawer {
     height: 100vh;
-    position: sticky;
+    position: static;
     top: 0;
     overflow-y: auto;
-}
+} */
