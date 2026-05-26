@@ -1,3 +1,27 @@
+/* Custom Blazor Purple Palette for Fluent Light Theme */
+:root {
+  --ig-primary-500: #512BD4;
+  --ig-secondary-500: #7C3AED;
+}
+
+/* Custom Nav Drawer Theme - Blazor-style gradient sidebar */
+igc-nav-drawer {
+  --ig-nav-drawer-background: #1a1a2e;
+  --ig-nav-drawer-item-text-color: rgba(255, 255, 255, 0.85);
+  --ig-nav-drawer-item-icon-color: rgba(255, 255, 255, 0.85);
+  --ig-nav-drawer-item-header-text-color: white;
+  --ig-nav-drawer-item-active-background: rgba(255, 255, 255, 0.25);
+  --ig-nav-drawer-item-active-text-color: white;
+  --ig-nav-drawer-item-active-icon-color: white;
+  --ig-nav-drawer-item-hover-background: rgba(255, 255, 255, 0.1);
+  --ig-nav-drawer-item-hover-text-color: white;
+  --ig-nav-drawer-item-hover-icon-color: white;
+}
+
+igc-nav-drawer::part(base) {
+  background: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
 html, body {
     font-family: var(--ig-font-family);
     color: var(--ig-surface-500-contrast);
