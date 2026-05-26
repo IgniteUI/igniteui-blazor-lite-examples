@@ -39,7 +39,6 @@ igc-nav-drawer {
 .loading-progress {
     width: 80px;
     height: 80px;
-    transform: rotate(-90deg);
 }
 
 .loading-track {
@@ -48,15 +47,19 @@ igc-nav-drawer {
     stroke-width: 4;
 }
 
+.loading-spinner {
+    transform-origin: 50% 50%;
+    animation: spin 1.2s linear infinite;
+}
+
 .loading-indicator {
     fill: none;
-    stroke: url(#loading-gradient);
+    stroke: #7C3AED;
     stroke-width: 4;
     stroke-linecap: round;
     stroke-dasharray: 264;
     stroke-dashoffset: 180;
-    animation: spin 1.2s linear infinite, dash 1.6s ease-in-out infinite;
-    stroke: #7C3AED;
+    animation: dash 1.6s ease-in-out infinite;
     filter: drop-shadow(0 0 6px rgba(124, 58, 237, 0.5));
 }
 
