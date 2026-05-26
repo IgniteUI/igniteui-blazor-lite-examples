@@ -16,13 +16,13 @@ igc-nav-drawer {
     --ig-nav-drawer-item-hover-background: rgba(255, 255, 255, 0.1);
     --ig-nav-drawer-item-hover-text-color: white;
     --ig-nav-drawer-item-hover-icon-color: white;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
 }
 
     igc-nav-drawer::part(base) {
         height: 100vh;
-        position: static;
-        top: 0;
-        overflow-y: auto;
         background: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
     }
 
