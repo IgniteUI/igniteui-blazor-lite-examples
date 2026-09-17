@@ -35,9 +35,9 @@ IgniteUI.Blazor.Lite.Examples/
 
 | Category | Components |
 |---|---|
-| Form Controls | Input, Textarea, Combo, Select, DatePicker, DateRangePicker, Calendar, DateTimeInput, MaskInput, Checkbox, Radio, Switch, Slider, Rating |
-| Layout | Tabs, Stepper, Accordion, ExpansionPanel, Navbar, NavDrawer, Tree |
-| Data Display | Button, Icon, Card, Carousel, List, Avatar, Badge, Chip, Progress, Dropdown, Tooltip, Ripple, Divider |
+| Form Controls | Input, Textarea, Combo, Select, DatePicker, DateRangePicker, Calendar, DateTimeInput, MaskInput, Checkbox, Radio, Switch, Slider, Rating, ColorPicker |
+| Layout | Tabs, Stepper, Accordion, ExpansionPanel, Navbar, NavDrawer, Tree, Splitter |
+| Data Display | Button, Icon, Card, Carousel, List, Avatar, Badge, Chip, Progress, Dropdown, Tooltip, Ripple, Divider, Chat, Highlight, QrCode |
 | Feedback | Dialog, Snackbar, Toast, Banner |
 | Grid | GridLite |
 | Layout Managers | TileManager |
@@ -46,6 +46,8 @@ IgniteUI.Blazor.Lite.Examples/
 
 - **IgniteUI.Blazor.Lite** — Core UI components (MIT)
 - **IgniteUI.Blazor.GridLite** — Lightweight data grid (MIT)
+
+Both are referenced with a floating `Version="*"`, so a restore always resolves the latest released version. The demos currently target `IgniteUI.Blazor.Lite` 0.2.0.
 
 ## License
 
