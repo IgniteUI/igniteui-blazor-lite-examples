@@ -47,7 +47,7 @@ IgniteUI.Blazor.Lite.Examples/
 - **IgniteUI.Blazor.Lite** — Core UI components (MIT)
 - **IgniteUI.Blazor.GridLite** — Lightweight data grid (MIT)
 
-Both are referenced with a floating `Version="*"`, so a restore always resolves the latest released version. The demos currently target `IgniteUI.Blazor.Lite` 0.5.0 and `IgniteUI.Blazor.GridLite` 0.11.0.
+Both are referenced with a floating `Version="*"`, so a restore always resolves the latest released version. The demos currently target `IgniteUI.Blazor.Lite` and `IgniteUI.Blazor.GridLite` 1.0.0.
 
 ## License
 
