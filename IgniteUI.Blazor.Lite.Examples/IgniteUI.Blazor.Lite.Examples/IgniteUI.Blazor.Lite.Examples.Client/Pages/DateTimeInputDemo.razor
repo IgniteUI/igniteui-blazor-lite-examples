@@ -16,7 +16,8 @@
                   SpinLoop="true"
                   InputOcurred="OnInput" />
 
-<p>Committed value: @(SelectedDateTime?.ToString("g") ?? "none")</p>
+@* The input reports dates as UTC instants; show them in the browser's time zone. *@
+<p>Committed value: @(SelectedDateTime?.ToLocalTime().ToString("g") ?? "none")</p>
 <p>Being typed: @Typed</p>
 
 <h4>Undo and Redo</h4>

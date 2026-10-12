@@ -38,5 +38,6 @@
 
     void OnInput(IgbComponentDateValueChangedEventArgs<DateTime?> args) => Typed = Format(args.Detail);
 
-    static string Format(DateTime? value) => value?.ToShortDateString() ?? "none";
+    // The picker reports dates as UTC instants; show them in the browser's time zone.
+    static string Format(DateTime? value) => value?.ToLocalTime().ToShortDateString() ?? "none";
 }

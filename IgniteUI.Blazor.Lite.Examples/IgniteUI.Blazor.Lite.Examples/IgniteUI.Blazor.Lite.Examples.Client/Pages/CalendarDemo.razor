@@ -6,7 +6,8 @@
 
 <IgbCalendar @bind-Value="Selected" ShowWeekNumbers="true" />
 
-<p>Selected: @Selected.ToShortDateString()</p>
+@* The calendar reports dates as UTC instants; show them in the browser's time zone. *@
+<p>Selected: @Selected.ToLocalTime().ToShortDateString()</p>
 
 <h4>Locale-Driven Week Start</h4>
 
